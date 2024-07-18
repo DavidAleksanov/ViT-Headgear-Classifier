@@ -1,0 +1,1 @@
+Sample link to a dataset: https://www.kaggle.com/datasets/gpiosenka/headgear-image-classification
