@@ -6,17 +6,6 @@ This repository contains code for training a Vision Transformer (ViT) based clas
 
 The project is structured as follows:
 
-ViT-Headgear-Classifier/
-│
-├── src/
-│   ├── model.py        # Python script defining the Vision Transformer model architecture
-│   └── train.py        # Python script for training the Vision Transformer model
-│
-└── data/
-    ├── headgear-image-classification-metadata.json   # Metadata describing the dataset
-    └── example-data.txt                             # Sample link to the dataset
-link to the dataset
-
 - `src/`: Contains the source code for the ViT model (`model.py`) and the training script (`train.py`).
 - `data/`: Contains metadata (`headgear-image-classification-metadata.json`) and an example file for the data description link (`example-data.txt`).
 
