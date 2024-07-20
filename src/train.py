@@ -120,7 +120,6 @@ def train(model, train_loader, valid_loader, criterion, optimizer, epochs=10):
                 val_correct += (predicted == labels).sum().item()
         print(f"Validation Loss: {val_loss/len(valid_loader)}, Validation Accuracy: {100 * val_correct / val_total}")
 
-# Функция тестирования
 def test(model, test_loader):
     model.eval()
     test_correct = 0
@@ -134,6 +133,5 @@ def test(model, test_loader):
             test_correct += (predicted == labels).sum().item()
     print(f"Test Accuracy: {100 * test_correct / test_total}")
 
-# Запуск тренировки и тестирования
 train(model, train_loader, valid_loader, criterion, optimizer, epochs=10)
 test(model, test_loader)
